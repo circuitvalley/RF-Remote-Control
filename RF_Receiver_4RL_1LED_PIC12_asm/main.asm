@@ -316,7 +316,7 @@ wFinish
 
 	retlw	0						; return with success
 ;------------------------------------------------------------------
-;  delay_x5us	parameter in wreg , reg>=2
+;  delay_x5us	parameter in wreg , wreg>=2
 ;			
 ;		Precise delay of (wreg value)*5us ,
 ; the loop has 10cycle minimum  (2 calling, 1 movwf, 1 decf , 1 nop , 1 nop,2 decfsz,2 return )
